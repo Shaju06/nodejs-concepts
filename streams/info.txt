@@ -1,0 +1,1 @@
+This utility is a Node.js script that reads a file, compresses it using the Gzip compression algorithm, and then writes the compressed content to a new file. The compression process is monitored and displayed using a progress indicator.

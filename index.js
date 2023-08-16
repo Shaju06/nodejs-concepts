@@ -1,8 +1,8 @@
 import express from 'express';
-  
+ import {createFile} from './streams/stream.js'
+
+createFile()
 const app = express();
-
-
   
 app.get('/hello',(req,res) => {
     res.send('Hello World');
